@@ -21,14 +21,14 @@ let arr10= new Quiz("image/canbang.png","cân bằng","Trong hình có gì nào"
 let arr11= new Quiz("image/bahoa.png","ba hoa","Chỉ có hoa")
 quizs.push(arr);
 quizs.push(arr1);
-// quizs.push(arr2);
-// quizs.push(arr3);
-// quizs.push(arr4);
-// quizs.push(arr5);
-// quizs.push(arr6);
-// quizs.push(arr7);
-// quizs.push(arr81);
-// quizs.push(arr8);
-// quizs.push(arr9);
-// quizs.push(arr10);
-// quizs.push(arr11);
+quizs.push(arr2);
+quizs.push(arr3);
+quizs.push(arr4);
+quizs.push(arr5);
+quizs.push(arr6);
+quizs.push(arr7);
+quizs.push(arr81);
+quizs.push(arr8);
+quizs.push(arr9);
+quizs.push(arr10);
+quizs.push(arr11);

@@ -1,8 +1,9 @@
 body{
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background-size: 100% 100%;
     background-image: url("https://f16.photo.talk.zdn.vn/4409676104870541366/2d782a4baa21587f0130.jpg");
+    box-sizing: border-box;
 }
 
 h1{
@@ -22,15 +23,16 @@ button:hover{
     width: 50%;
     height: 50%;
     left: 35%;
-    top: 10%;
+    top: 15%;
     display: block;
+    display: none;
     background-repeat: no-repeat;
 }
 .modal:hover {
     position: absolute;
     display: block;
-    right: 20px;
-    top: 4px;
+    /*right: 20px;*/
+    /*top: 4px;*/
     cursor: pointer;
 }
 
