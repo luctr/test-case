@@ -7,8 +7,8 @@ class Quiz{
 }
 let quizs=[];
 let arr =new Quiz("image/bactinh.png","bạc tình","Trong hình có bạc và trái tim")
-let arr1= new Quiz("image/trangluoiliem.png","trăng lưỡi liềm","Hình trăng")
-let arr2= new Quiz("image/baocao.png","báo cáo","Con cáo")
+let arr1= new Quiz("image/trangluoiliem.png","trăng lưỡi liềm","Trăng đang cầm gì vậy")
+let arr2= new Quiz("image/baocao.png","báo cáo","Trong hình có cáo và ...")
 let arr3= new Quiz("image/baola.png","bao la","cái bao đang làm gì")
 let arr4= new Quiz("image/cadao.png","ca dao","Trong hình có gì thì câu trả lời ở đó")
 let arr5= new Quiz("image/obama.jpg","ô ba ma","Tên một vị tổng thống" )

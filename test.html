@@ -2,25 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Menu</title>
 
     <link rel="stylesheet" href="test.css">
 
 
 <body>
-<div id="win">
+<p onclick="point1()"></p>
+<audio id="nhacdung">
+    <source src="music/Am-thanh-tra-loi-dung-www_nhacchuongvui_com.mp3" type="audio/mp3">
+</audio>
+<audio id="nhacsai">
+    <source src="music/Am-thanh-Ban-tra-loi-sai-roi-www_nhacchuongvui_com.mp3" type="audio/mp3">
+</audio>
+<audio id='nhacnenwin'>
+    <source src="music/musicwin.mp3" type="audio/mp3">
+</audio>
 
+<div id="win">
     <div class="modal" onclick="handleClose()">X</div>
 
 </div>
 <div id="main" align="center">
-<!--    <h1>Đuổi hình bắt chữ</h1>-->
     <b>
             <span id="sp1">
-
             </span>
     </b>
-    <div style="display: flex; justify-content: center; align-items: center;padding-top: 122px;width: 100%; height: 400px">
+    <div class="div-1">
         <div style="text-align: center;">
             <img src="" id="img" width="450">
         </div>
@@ -28,23 +36,24 @@
     </div>
     <div>
         <input type="text" id="ip-1"><br/>
-        <button onclick="Result()" id="kq">
+        <button onclick="result()" id="kq">
             Kết Quả
         </button>
     </div>
     <div style="width: 50px; height: 50px; ">
 
     </div>
-    <button id="sp" onclick="Support()">
+    <button id="sp" onclick="support()">
         Trợ Giúp
     </button>
-    <button onclick="Reset()" class="cangiua">
+    <button onclick="reset()" class="cangiua">
         Reset Game
     </button>
     <button onclick="next()" class="cangiua">
         Bỏ Qua
     </button>
     <p id="text"></p>
+
 
 
 </div>
