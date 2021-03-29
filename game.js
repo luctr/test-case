@@ -17,7 +17,7 @@ function dangnhap() {
     if (check(p)){
         alert("bạn cần điền họ tên")
     }else{
-        window.location="/testcasy/test.html";
+        window.location="index.html";
         document.getElementById("sp1").innerHTML = p;
     }
 
